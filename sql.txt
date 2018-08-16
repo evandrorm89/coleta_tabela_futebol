@@ -1,0 +1,9 @@
+CREATE TABLE `football2` (
+	`data` VARCHAR(10) NOT NULL ,
+	`horario` VARCHAR(30) NOT NULL ,
+	`liga` TEXT NOT NULL ,
+	`casa` TEXT NOT NULL ,
+	`visitante` TEXT NOT NULL ,
+	`prediction` VARCHAR(50) NOT NULL,
+	`descricao` TEXT NOT NULL) 
+	ENGINE = InnoDB;
